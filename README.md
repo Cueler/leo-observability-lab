@@ -1,59 +1,34 @@
-# LEO Observability Lab
+LEO Observability Lab: Infrastructure & Space Weather Research
+📡 Visão Geral
+Este repositório documenta o desenvolvimento de um laboratório de infraestrutura virtualizada dedicado à observabilidade, telemetria e pesquisa aplicada em redes LEO (Low Earth Orbit). O projeto evoluiu de um ambiente de testes para uma arquitetura robusta voltada ao monitoramento de métricas de rede em tempo real e sua correlação com eventos espaciais.
 
-Open-source observability and telemetry laboratory focused on LEO network analysis, infrastructure monitoring, and correlation of space weather events with network behavior.
+O laboratório serve como base técnica para estudos de viabilidade e performance de constelações de satélites, integrando dados de fontes orbitais com métricas de infraestrutura terrestre.
 
----
+🏗️ Arquitetura e Stack Técnica
+A infraestrutura foi projetada seguindo princípios de segmentação de rede e alta disponibilidade:
 
-## Infrastructure
+Virtualização: Proxmox VE gerenciando containers LXC para otimização de recursos.
 
-- Proxmox VE
-- MikroTik
-- pfSense
-- Zabbix
-- Grafana
-- Grafana Cloud
-- Linux Containers (LXC)
+Networking & Segurança: Segmentação de tráfego via MikroTik e pfSense, com conectividade segura através de túneis OpenVPN e WireGuard.
 
----
+Observabilidade: Stack completa com Zabbix e Grafana para telemetria de rede e dashboards dinâmicos.
 
-## Project Goals
+Automação: Scripts em Python para consumo de APIs astronômicas e de clima espacial (NASA, NOAA, N2YO).
 
-- Build scalable low-cost infrastructure using open-source technologies
-- Develop telemetry and observability engines
-- Correlate CME (Coronal Mass Ejection) events with:
-  - jitter
-  - latency
-  - handover
-  - network degradation
+🧪 Focos de Estudo e Aplicação
+Telemetria Espacial: Monitoramento de clima espacial e seu impacto direto em métricas de latência e jitter em links de satélite.
 
----
+Pesquisa Aplicada: Base técnica para o desenvolvimento de estudos sobre Edge AI e Redes Privadas 4G/5G.
 
-## Integrated APIs
+Análise de Constelações: Rastreio e comparação de performance entre diferentes provedores de serviços LEO, como Starlink e Amazon Project Kuiper.
 
-- NOAA
-- NASA
-- Celestrak
-- N2YO
-- Space-Track
+📂 Organização do Repositório
+/architecture: Diagramas de topologia e fluxos de rede.
 
----
+/dashboards: Modelos JSON para visualização de dados no Grafana.
 
-## Current Focus
+/telemetry: Motores de coleta e scripts de automação.
 
-Development of telemetry correlation engines and observability workflows for continuous network analysis.
+/docs: Artigos técnicos e documentação de suporte à pesquisa.
 
----
-
-## Future Roadmap
-
-- AI-assisted anomaly detection
-- Predictive telemetry analysis
-- Automated event classification
-- Advanced dashboards
-- Time-series correlation engines
-
----
-
-## Status
-
-🚧 Active development
+/screenshots: Evidências visuais da infraestrutura e painéis de controle.
