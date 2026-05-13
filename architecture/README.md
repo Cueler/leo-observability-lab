@@ -14,7 +14,7 @@ A fundação do laboratório utiliza hardware otimizado para operação com alta
 ## 🌐 Fluxo de Dados e Topologia Lógica
 A arquitetura foi desenhada para garantir o isolamento entre a rede residencial e o ambiente de testes de dados sensíveis.
 
-![Diagrama de Rede](infra-lab.png)
+![Diagrama de Rede](infra-lab.png.png)
 
 ### Detalhamento das Camadas:
 
