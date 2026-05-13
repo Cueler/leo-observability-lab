@@ -13,18 +13,18 @@ Este artigo descreve a arquitetura base deste repositório, validando a integra�
 * **Contribuição:** Proposta de um motor em Python integrado ao Zabbix para correlação de eventos solares com performance de rede.
 * **Resultado Chave:** Identificação de correlação positiva ($r=0,87$) entre densidade de prótons solares e picos de latência em backhaul LEO.
 * **Autor:** César Ueler.
-* **Status:** Submetido / Em revisão (Direito de propriedade intelectual preservado).
+* **Status:** Submetido / Em revisão.
 
 ---
 
 ## 2. Monitoramento Rodoviário Inteligente via Edge AI (Colaboração CPQD)
 **Foco:** 5G Privativo, Federated Learning (FL) e Small Language Models (SLM).
 
-Desenvolvido durante a Residência Tecnológica, este trabalho endereça lacunas de cobertura em rodovias federais brasileiras utilizando satélites LEO.
+Trabalho desenvolvido no contexto da Residência Tecnológica para endereçar lacunas de cobertura em rodovias federais utilizando satélites LEO e processamento na borda.
 
-* **Inovação:** Substituição de streaming de vídeo pelo compartilhamento de gradientes de modelos SLM processados na borda (RSUs).
-* **Impacto Técnico:** Redução comprovada de até **96% no tráfego de dados**, viabilizando monitoramento em áreas de baixa conectividade.
-* **Parceria:** César Ueler, Kelly Teixeira e equipe técnica do CPQD.
+* **Inovação:** Substituição de streaming de vídeo pelo compartilhamento de gradientes de modelos SLM processados localmente (RSUs), reduzindo em até **96% o tráfego de dados**.
+* **Autores (conforme submissão):** César Ueler, Dennis Portugal, Eduardo Notari, Gabriel Theodoro, Kelly Teixeira, Klinger Carneiro, Nadia Nassif e Rodolfo Costa.
+* **Instituição:** CPQD / Residência Tecnológica.
 * **Status:** Submetido / Em revisão.
 
 ---
